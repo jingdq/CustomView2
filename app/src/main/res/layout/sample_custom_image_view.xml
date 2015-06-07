@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.jing.customview2.CustomImageView
+        android:background="#ccc" android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:titleText="jingjign"
+        app:titleTextColor="#33b5e5"
+        app:titleTextSize="20sp"
+        app:image="@mipmap/ic_launcher"
+        app:imageScaleType="fillXY"
+        android:paddingBottom="5dp"
+        />
+
+</FrameLayout>
